@@ -1,5 +1,5 @@
 build
 *.nso
-*.nsp
+sys-script.nsp
 *.npdm
 *.elf

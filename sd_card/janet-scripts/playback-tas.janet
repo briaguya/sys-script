@@ -62,7 +62,7 @@
     (switch/event-wait vsync)
 
     (while (not fileempty)
-      (def line (file/read s8 :line))
+      (def line (file/read tasfile :line))
       (if (nil? line)
         (set fileeempty true)
         (set frame (runinput line fcon vsync frame))))
