@@ -1,0 +1,5 @@
+build
+*.nso
+*.nsp
+*.npdm
+*.elf

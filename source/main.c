@@ -117,7 +117,7 @@ int main(int argc, char* argv[])
                 "(def log (file/open \"sdmc:/jout.log\" :a))\n"
                 "(setdyn :out log)\n"
                 "(setdyn :err log)\n"
-                "(try (dofile \"sdmc:/scripts/script1.janet\") ([err fiber] (debug/stacktrace fiber)))\n"
+                "(try (dofile \"sdmc:/janet-scripts/playback-tas.janet\") ([err fiber] (debug/stacktrace fiber)))\n"
                 "(file/close log)", "main", NULL);
         }
 
