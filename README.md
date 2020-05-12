@@ -7,10 +7,8 @@ if you get to the point of vscode in https://switch.homebrew.guide/ it should wo
 todo: explain more
 
 ## Installing
-* After building, copy `sys-script.nsp` to `sdmc:/atmosphere/contents/4200736372697074/exefs.nsp`
-* To load the sysmodule at boot, the following file should exist: `sdmc:/atmosphere/contents/4200736372697074/flags/boot2.flag`.
-* Copy `playback-tas.janet` to `sdmc:/janet-scripts/playback-tas.janet`
-* Copy `tasfile.txt` to `sdmc:/scripts/tasfile.txt`
+* After building, copy `sys-script.nsp` to `sd_card/atmosphere/contents/4200736372697074/exefs.nsp`
+* Copy the contents of `/sd_card/` to your sd card
 
 ## Running
 * Attach a usb keyboard to your switch
